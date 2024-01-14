@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    * {
+        margin: 0%;
+        padding: 0%;
+    }
+    body{
+        background: #042f5d;
+    }
+    
+</style>
+
+<body>
+    <div class="container">
+        <div class="count">
+            <b>Counter =</b>
+            <h1 id="Increment"></h1>
+        </div>
+    </div>
+    <div class="btns">
+        <button id="HandleIncrement" onclick="increment()">Increment of 1</button>
+        <button id="IncOf2" onclick="incrementOf2()">Increment of 2</button>
+        <button id="IncOf3" onclick="incrementOf3()">Increment of 3</button>
+        <button onclick="reset()">Reset</button>
+    </div>
+
+    <script src="logic.js"></script>
+</body>
+
+</html>
